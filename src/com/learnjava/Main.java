@@ -44,7 +44,9 @@ public class Main {
             System.out.println("Enter value between 1 and 30");
         }
 
-        double mortgage = MortgageCalculator.calculateMonthlyPayment(principal, monthlyInterest, numberOfPayments);
+        double mortgage = principal
+                * (monthlyInterest * Math.pow(1+monthlyInterest,numberOfPayments))
+                / (Math.pow(1+monthlyInterest, numberOfPayments)-1);
         String mortgageFormatted = NumberFormat.getCurrencyInstance().format(mortgage);
         System.out.print("Mortgage: " + mortgageFormatted);
     }

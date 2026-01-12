@@ -37,18 +37,6 @@ java -cp out com.learnjava.Main
 
 Tip: You can also import the project into an IDE and run the `com.learnjava.Main` class directly.
 
-## Running tests (Maven) 🧪
-
-This project includes JUnit 5 tests. To run them with Maven:
-
-```bash
-mvn test
-```
-
-CI: Tests also run automatically on push and pull requests via GitHub Actions (`.github/workflows/maven.yml`).
-
-If you prefer Gradle or another build system I can add that instead.
-
 ## Usage Example ✍️
 
 Run the program and enter values when prompted (example input shown):
