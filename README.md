@@ -45,7 +45,7 @@ Run the program and enter values when prompted (example input shown):
 Principal ($1k - $1M): 200000
 Annual Interest Rate: 3.75
 Period (Years): 20
-Mortgage: $1,185.98
+Mortgage: $1,185.79
 ```
 
 > Note: The application validates inputs:
